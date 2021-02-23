@@ -1,0 +1,109 @@
+/* ?Custom Animation */
+
+.nav-animate{
+	animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+	-webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.bounceUpDown{
+	animation: bounceUpDown 1s infinite linear alternate;
+}
+@keyframes bounceUpDown{
+
+	0%{
+		transform: translateY(-20px);
+		-moz-transform: translateY(-20px);
+		-webkit-transform: translateY(-20px);
+	}
+
+	50%{
+		transform: translateY(-10px);
+		-moz-transform: translateY(-10px);
+		-webkit-transform: translateY(-10px);
+	}
+
+	100%{
+		transform: translateY(0px);
+		-moz-transform: translateY(0px);
+		-webkit-transform: translateY(0px);
+	}
+
+}
+/* ?--------------------- */
+
+/* ?Custom Animation */
+
+.multiColor{
+	animation: multiColor 2s infinite linear alternate-reverse;
+}
+@keyframes multiColor{
+
+	0%{
+		color: indianred;
+	}
+
+	25%{
+		color: dodgerblue;
+	}
+
+	50%{
+		color: rebeccapurple;
+	}
+
+	75%{
+		color: springgreen;
+	}
+
+	100%{
+		color: orange;
+	}
+
+}
+/* ?-------------------- */
+
+/* ?Custom Animation */
+
+.multiBgColor{
+	animation: multiBgColor 2s infinite linear alternate-reverse;
+}
+@keyframes multiBgColor{
+
+	0%{
+		background-color: indianred;
+	}
+
+	25%{
+		background-color: dodgerblue;
+	}
+
+	50%{
+		background-color: rebeccapurple;
+	}
+
+	75%{
+		background-color: springgreen;
+	}
+
+	100%{
+		background-color: orange;
+	}
+
+}
+/* ?-------------------- */
+
+@keyframes bxd {
+    0%{
+        background-color:red;
+  
+    }
+
+    50%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color:seagreen;
+    }
+
+
+}
